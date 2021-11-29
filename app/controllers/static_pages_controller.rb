@@ -7,4 +7,10 @@ class StaticPagesController < ApplicationController
 
   def about
   end
+
+  def create
+    p '>>>>>>>>>>>>>>>>>'
+    p params
+
+  end
 end
