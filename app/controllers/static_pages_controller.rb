@@ -9,8 +9,5 @@ class StaticPagesController < ApplicationController
   end
 
   def create
-    p '>>>>>>>>>>>>>>>>>'
-    p params
-
   end
 end
